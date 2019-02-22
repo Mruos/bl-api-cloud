@@ -1,0 +1,63 @@
+1ÿ≠2019-02-22 09:53:03ÿ≠sysÿ≠welcome
+2ÿ≠2019-02-22 09:53:03ÿ≠sysÿ≠tips£∫input "sys order" to get order list.
+3ÿ≠2019-02-22 09:53:03ÿ≠sysÿ≠tips£∫input"sys debug on" to open debug message.
+4ÿ≠2019-02-22 09:53:03ÿ≠sysÿ≠start http ask protect£∫in lately 30s a ip only can ask 8 times£¨more than ask will be ignore.
+5ÿ≠2019-02-22 09:53:03ÿ≠plugÿ≠load all complete£∫
+
+success£∫bjtime
+success£∫web-demo
+
+6ÿ≠2019-02-22 09:53:03ÿ≠server/httpÿ≠prepare listen £∫ip(192.168.1.108),port(80).
+7ÿ≠2019-02-22 09:53:03ÿ≠server/httpÿ≠start success£∫port(80).
+8ÿ≠2019-02-22 09:53:03ÿ≠server/httpsÿ≠prepare listen £∫ip(192.168.1.108),port(6690).
+9ÿ≠2019-02-22 09:53:03ÿ≠server/httpsÿ≠start success£∫port(6690).
+10ÿ≠2019-02-22 09:53:03ÿ≠serverÿ≠ip message£∫local(192.168.1.108),net(183.184.50.117),location(…ΩŒ˜ °Ã´‘≠ – ¡™Õ®).
+11ÿ≠2019-02-22 09:53:03ÿ≠serverÿ≠heart pack url£∫/api/this/heart
+12ÿ≠2019-02-22 09:53:17ÿ≠inputÿ≠input >> sys oder
+13ÿ≠2019-02-22 09:53:28ÿ≠inputÿ≠input >> sys order
+14ÿ≠2019-02-22 09:53:28ÿ≠sysÿ≠order list£∫
+
+sys order
+sys debug on
+sys debug off
+server state
+server run
+server stop
+plug load [name]
+plug free [name]
+plug run [name]
+plug stop [name]
+plug set [name]
+plug reload [name]
+15ÿ≠2019-02-22 09:53:34ÿ≠inputÿ≠input >> sys debug off
+16ÿ≠2019-02-22 09:53:34ÿ≠sysÿ≠debug message close.
+17ÿ≠2019-02-22 09:53:40ÿ≠inputÿ≠input >> server state
+18ÿ≠2019-02-22 09:53:40ÿ≠sysÿ≠state£∫
+
+server running£∫http(yes),https(yes).
+
+heart pack api url£∫/api/this/heart
+
+plug running£∫
+bjtime£∫yes£¨auth url£∫/api/sup/bjtime
+web-demo£∫yes£¨auth url£∫/web
+
+exist plug list£∫bjtime°¢web-demo
+19ÿ≠2019-02-22 09:53:57ÿ≠inputÿ≠input >> server stop
+20ÿ≠2019-02-22 09:53:57ÿ≠server/httpÿ≠shut down.
+21ÿ≠2019-02-22 09:53:57ÿ≠server/httpÿ≠stop success.
+22ÿ≠2019-02-22 09:54:21ÿ≠inputÿ≠input >> server run
+23ÿ≠2019-02-22 09:54:21ÿ≠server/httpÿ≠prepare listen £∫ip(192.168.1.108),port(80).
+24ÿ≠2019-02-22 09:54:22ÿ≠server/httpÿ≠run success.
+25ÿ≠2019-02-22 09:54:22ÿ≠server/httpsÿ≠run fail£∫is running.
+26ÿ≠2019-02-22 09:54:50ÿ≠inputÿ≠input >> plug free bjtime
+27ÿ≠2019-02-22 09:54:50ÿ≠plugÿ≠free success.
+28ÿ≠2019-02-22 09:54:59ÿ≠inputÿ≠input >> plug load bjtime
+29ÿ≠2019-02-22 09:54:59ÿ≠plugÿ≠load success.
+30ÿ≠2019-02-22 09:55:31ÿ≠inputÿ≠input >> plug reload bjtime
+31ÿ≠2019-02-22 09:55:31ÿ≠plugÿ≠reload down <bjtime>.
+32ÿ≠2019-02-22 09:55:40ÿ≠inputÿ≠input >> plug set bjtime
+33ÿ≠2019-02-22 09:55:40ÿ≠bjtimeÿ≠no set window.
+34ÿ≠2019-02-22 09:55:40ÿ≠plugÿ≠please to set <bjtime>.
+35ÿ≠2019-02-22 09:55:55ÿ≠server/httpÿ≠shut down.
+36ÿ≠2019-02-22 09:55:56ÿ≠server/httpsÿ≠shut down.
